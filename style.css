@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    height:100vh ;
+    width: 100%;
+    background-image:  linear-gradient(rgba(210, 125, 59, 0.5),rgba(22, 162, 255, 0.5),rgba(255, 255, 255, 0.5))   ,url('IMG-20250602-WA0003.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items:center;
+    color:rgb(255, 255, 255) ;
+    justify-content: center;
+    
+}
+.header{
+    font-size: 70px;
+    font-weight: bold;
+   margin-top: 20px;
+}
+.btn{
+    border-radius: 10px;
+  width: 16%;
+  height: 10%;
+  margin-top: 20px;;
+   
+    color: rgb(255, 255, 255);
+background-color: rgb(199, 124, 43);
+cursor: pointer;
+color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    
+}
+
